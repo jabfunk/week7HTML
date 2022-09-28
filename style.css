@@ -1,0 +1,74 @@
+body {
+    max-width: 960px;
+    margin: auto
+}
+
+h1 {
+    color: darkslateblue;
+}
+
+form {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#pick {
+    background-color: bisque;
+}
+.button {
+    background-color: lightcoral;
+    font-family: fantasy;
+}
+
+h4 {
+    text-align: center;
+    background-color: pink;
+    font-style: italic;
+    height: 95px
+    width: 95px
+}
+
+h3 {
+    text-align: center;
+    background-color: bisque;
+}
+
+.pages {
+    text-align: center;
+    background-color: pink;
+    font-style: italic;
+    height: 95px
+    width: 95px
+}
+
+.pages:hover {
+    background-color: indianred;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+#doggies {
+    width: 350px;
+    height: 350px
+}
+
+h2 {
+    font-family: fantasy;
+}
+
+ul, li {
+    font-family: fantasy;
+}
+

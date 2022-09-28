@@ -5,25 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Favorite Dogs</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="https://i.pinimg.com/564x/4e/a2/97/4ea297707fd164ad11ec42aca9675f57.jpg"> <br>
+    <img id="doggies" src="https://i.pinimg.com/564x/4e/a2/97/4ea297707fd164ad11ec42aca9675f57.jpg"> <br>
     <h1>Which is Your Favorite Dog?</h1>
     <form> 
         <input type="text" name="firstName" placeholder="Your First Name"> <br>
         <input type="text" name="lastName" placeholder="Your Last Name"> <br>
     <h3> Breeds </h3>
-        <input type="radio" name="breed" placeholder="Doddle"> Doodles <br>
-        <input type="radio" name="breed" placeholder="Lab"> Labradors <br>
-        <input type="radio" name="breed" placeholder="Bernese Mountain Dog"> Bernese Mountain Dog <br>
-        <input type="radio" name="breed" placeholder="None"> None. I am a cat person righ meow. <br>
+    <div id="pick">
+        <input  type="radio" name="breed" placeholder="Doddle"> Doodles <br>
+        <input  type="radio" name="breed" placeholder="Lab"> Labradors <br>
+        <input  type="radio" name="breed" placeholder="Bernese Mountain Dog"> Bernese Mountain Dog <br>
+        <input  type="radio" name="breed" placeholder="None"> None. I am a cat person righ meow. <br>
         <br>
-        <input type="submit" value="Cast Your Vote">
+        <input class="button" type="submit" value="Cast Your Vote">
+      </div>
     </form>
 
 
-    <h2> Learn More About Each Breed </h2>
-    <div>
+    <h4> Learn More About Each Breed </h4>
+    <div class="pages">
         <a href="page1.html"> Doodles</a> <br>
         <a href="page2.html"> Labradors </a> <br>
         <a href="page3.html"> Bernese Mountain Dog </a>
@@ -47,7 +50,7 @@
               <td>10-14 years</td>
             </tr>
             <tr>
-                <td>Bernese Mountain Dog</td>
+               <td>Bernese Mountain Dog</td>
                 <td>Extra large</td>
                 <td>6-8 years</td>
               </tr>
